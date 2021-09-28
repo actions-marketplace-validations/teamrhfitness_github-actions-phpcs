@@ -1,6 +1,6 @@
 name: 'PHP CodeSniffer Check'
 description: 'PHP CodeSniffer checker action'
-author: 'Kaspars Zarinovs, Team RH Fitness'
+author: 'Kaspars Zarinovs'
 inputs:
   check_path:
     description: 'File/folder to check with phpcs'
