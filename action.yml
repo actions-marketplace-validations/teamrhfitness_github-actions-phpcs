@@ -1,5 +1,5 @@
 name: 'PHP CodeSniffer Check'
-description: 'PHPCS checker'
+description: 'PHP CodeSniffer checker action'
 author: 'Kaspars Zarinovs, Team RH Fitness'
 inputs:
   check_files_path:
