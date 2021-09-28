@@ -2,7 +2,7 @@ name: 'PHP CodeSniffer Check'
 description: 'PHP CodeSniffer checker action'
 author: 'Kaspars Zarinovs, Team RH Fitness'
 inputs:
-  check_files_path:
+  check_path:
     description: 'File/folder to check with phpcs'
     required: false
     default: '.'
