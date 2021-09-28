@@ -2,10 +2,18 @@ name: 'PHP CodeSniffer Check'
 description: 'PHPCS checker'
 author: 'Kaspars Zarinovs, Team RH Fitness'
 inputs:
+  check_files_path:
+    description: 'File/folder to check with phpcs'
+    required: false
+    default: '.'
   phpcs_path:
     description: 'Path to phpcs binary'
     required: false
     default: 'phpcs'
+  phpcs_standard:
+    description: 'PHPCS standard to check against'
+    required: false
+    default: ''
 runs:
   using: 'docker'
   image: 'Dockerfile'
